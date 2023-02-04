@@ -4,31 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <div class="sidebar">
-        <div class="header">
-            <img src="" alt="" />
-            <h1>Dashboard</h1>
+        <div class="branding">
+          <img class="dash-img" src="./images/view-dashboard.svg" alt="" />
+          <h1>Dashboard</h1>
         </div>
         <div class="nav-1">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Messages</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Task</a></li>
-            <li><a href="">Communities</a></li>
+            <li><img src="./images/home.svg" alt="" /><a href="">Home</a></li>
+            <li>
+              <img src="./images/card-account-details-outline.svg" alt="" /><a
+                href=""
+                >Profile</a
+              >
+            </li>
+            <li>
+              <img src="./images/message-reply.svg" alt="" /><a href=""
+                >Messages</a
+              >
+            </li>
+            <li>
+              <img src="./images/clock-time-three.svg" alt="" /><a href=""
+                >History</a
+              >
+            </li>
+            <li>
+              <img src="./images/file-multiple.svg" alt="" /><a href="">Task</a>
+            </li>
+            <li>
+              <img src="./images/account-group.svg" alt="" /><a href=""
+                >Communities</a
+              >
+            </li>
           </ul>
         </div>
         <div class="nav-2">
           <ul>
-            <li><a href="">Settings</a></li>
-            <li><a href="">Support</a></li>
-            <li><a href="">Privacy</a></li>
+            <li>
+              <img src="./images/cog.svg" alt="" /><a href="">Settings</a>
+            </li>
+            <li>
+              <img src="./images/help-box.svg" alt="" /><a href="">Support</a>
+            </li>
+            <li>
+              <img src="./images/shield-check.svg" alt="" /><a href=""
+                >Privacy</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -36,7 +69,122 @@
         <h2>Search</h2>
       </div>
       <div class="main-content">
-        <h2>Your Projects</h2>
+        <div class="projects-container">
+          <h2>Your Projects</h2>
+          <div class="projects">
+            <div class="card">
+              <div class="text">
+                <h3>Super Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque exercitationem sunt iure fugiat velit. Iste, vero? Accusantium id, hic deserunt tempore nemo pariatur, optio minus impedit laudantium consequatur quo aspernatur.
+                </p>
+              </div>
+              <div class="buttons">
+                <a href=""><img src="./images/star-plus.svg" alt="" /></a>
+                <a href=""
+                  ><img src="./images/eye-plus-outline.svg" alt=""
+                /></a>
+                <a href=""><img src="./images/source-fork.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="text">
+                <h3>Less Cool Project</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Saepe, vitae tempore aperiam nam, cumque tempora totam libero
+                  atque minus laborum cum ut ab sit vel, eveniet reiciendis
+                  aliquam molestias placeat.
+                </p>
+              </div>
+              <div class="buttons">
+                <a href=""><img src="./images/star-plus.svg" alt="" /></a>
+                <a href=""
+                  ><img src="./images/eye-plus-outline.svg" alt=""
+                /></a>
+                <a href=""><img src="./images/source-fork.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="text">
+                <h3>Impossible App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                  commodi provident rerum dolorum eveniet saepe reiciendis amet.
+                  Atque minus eos consectetur beatae sed! Veritatis rem deleniti
+                  harum illum dolor consectetur?
+                </p>
+              </div>
+              <div class="buttons">
+                <a href=""><img src="./images/star-plus.svg" alt="" /></a>
+                <a href=""
+                  ><img src="./images/eye-plus-outline.svg" alt=""
+                /></a>
+                <a href=""><img src="./images/source-fork.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="text">
+                <h3>Easy Peasy App</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+                  exercitationem sunt iure fugiat velit. Iste, vero? Accusantium
+                  id, hic deserunt tempore nemo pariatur, optio minus impedit
+                  laudantium consequatur quo aspernatur.
+                </p>
+              </div>
+              <div class="buttons">
+                <a href=""><img src="./images/star-plus.svg" alt="" /></a>
+                <a href=""
+                  ><img src="./images/eye-plus-outline.svg" alt=""
+                /></a>
+                <a href=""><img src="./images/source-fork.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="text">
+                <h3>Ad Blocker</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Provident vel incidunt iusto distinctio beatae. Libero magnam
+                  dignissimos, odit fuga ea ad doloremque et, corrupti sit
+                  doloribus ab consectetur error non!
+                </p>
+              </div>
+              <div class="buttons">
+                <a href=""><img src="./images/star-plus.svg" alt="" /></a>
+                <a href=""
+                  ><img src="./images/eye-plus-outline.svg" alt=""
+                /></a>
+                <a href=""><img src="./images/source-fork.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="text">
+                <h3>Money Maker</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Molestiae nobis dolorem incidunt deleniti non esse natus quo
+                  doloribus illum hic, enim optio eaque aliquam. At
+                  reprehenderit dicta doloribus sit doloremque!
+                </p>
+              </div>
+              <div class="buttons">
+                <a href=""><img src="./images/star-plus.svg" alt="" /></a>
+                <a href=""
+                  ><img src="./images/eye-plus-outline.svg" alt=""
+                /></a>
+                <a href=""><img src="./images/source-fork.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="announcements">
+          <h2>Announcements</h2>
+        </div>
+        <div class="trending">
+          <h2>Trending</h2>
+        </div>
       </div>
     </div>
   </body>
