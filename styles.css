@@ -91,6 +91,12 @@ body {
 
 .text p {
     font-weight: 300;
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 5em;
+    line-height: 1em;
 }
 
 .card .buttons {
@@ -100,6 +106,35 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.announcement-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-height: 250px;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.announcement-1 {
+    grid-row: 1 / 2;
+}
+
+.announcement-2 {
+    grid-row: 2 / 3;
+}
+
+.announcement-3 {
+    grid-row: 3 / 4;
+}
+
+.announcement-card p {
+    font-size: 10px;
+}
+
 .buttons a img {
     width: 1.5rem;
     height: 1.5rem;
@@ -107,6 +142,28 @@ body {
 
 .announcements {
     grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.trending {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.trending-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-height: 250px;
+    max-width: 250px;
+}
+
+.trending-card div {
+    height: 75px;
 }
 
 ul {
