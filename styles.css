@@ -1,0 +1,42 @@
+:root {
+    --blue: #0096c7;
+    --gray: #e5e5e5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar {
+    background-color: var(--blue);
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 100vh;
+    color: #fff;
+}
+
+.nav {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.main-content {
+    grid-column: 2 / 3;
+    background-color: var(--gray);
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
